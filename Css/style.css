@@ -12,14 +12,122 @@
 .cover-img-3{
     height: 100vh;
 }
+.coverp1{
+       font-size: 20px;
+       font-weight: 500;
+}
 .accordion-style{
         text-align: center;
         width: 872px;
-        height: 710px;
         margin-left: 350px;
         }
 .companies{
     width: 75%;
     margin-left: 140px;
-    
+
 }
+.circle-icon {
+    background: #3d3c46;
+    padding:6px;
+    border-radius: 50%;
+}
+
+
+/*   --------------------------
+          media Queries
+       --------------------  */
+
+
+       /*----------
+               mobile devices -------   */
+
+@media only screen and (max-width: 688px){
+    .mainbutton{
+    margin-left: 100px;
+    margin-top: 50px;
+
+   }
+     .cover-img-1, .cover-img-2, .cover-img-3{
+       width: 100%;
+       height: 250px;
+       filter: brightness(30%);
+
+    }
+
+        
+        .accordion-style{
+        text-align: center;
+        width: 400px;
+        margin-left: 10px;
+        }
+     .companies{
+      display: none;
+
+      }
+      .coverh1{
+        font-size: 20px;
+        margin-top: -60px;
+      }
+      .coverp1{
+        font-size: 10px;
+      }
+      .buttonc1{
+         height: 30px;
+         font-size: 10px;
+       
+      }
+
+
+
+
+}
+/* -------------------
+            ipad mood 
+          -------------------- */
+@media only screen and (min-width:689px) and (max-width:992px)
+     {
+        .mainbutton{
+            margin-left: 330px;
+            margin-top: 50px;
+        
+           }
+             .cover-img-1, .cover-img-2, .cover-img-3{
+               width: 100%;
+               height: 450px;
+               filter: brightness(30%);
+        
+            }
+        
+                
+                .accordion-style{
+                text-align: center;
+                width: 600px;
+                margin-left: 120px;
+                }
+             .companies{
+              display: none;
+        
+              }
+              .coverh1{
+                font-size: 40px;
+                margin-top: -60px;
+              }
+              .coverp1{
+                font-size: 20px;
+              }
+              .buttonc1{
+                 height: 45px;
+                 font-size: 20px;
+                 padding-top: 0px;
+               
+              }
+             
+        
+        
+        
+
+
+
+
+
+     }

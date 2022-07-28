@@ -76,7 +76,12 @@
          font-size: 10px;
        
       }
+      .registration{
+        display: inline-block;
+        justify-content: center;
+        text-align: center;
 
+      }
 
 
 
@@ -101,8 +106,8 @@
                 
                 .accordion-style{
                 text-align: center;
-                width: 600px;
-                margin-left: 120px;
+                width: 700px;
+                margin-left: 80px;
                 }
              .companies{
               display: none;
@@ -120,6 +125,12 @@
                  font-size: 20px;
                  padding-top: 0px;
                
+              }
+              .registration{
+                display: inline-block;
+                justify-content: center;
+                text-align: center;
+        
               }
             
         

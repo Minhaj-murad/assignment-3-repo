@@ -21,10 +21,10 @@
         width: 872px;
         margin-left: 350px;
         }
-        .companiestop{
+        .companies{
           margin-top: 40px;
         }
-.companies{
+.company{
     width: 75%;
     margin-left: 180px;
 
@@ -87,8 +87,14 @@
         display: inline-block;
         justify-content: center;
         text-align: center;
+        margin-top: 40px;
+        padding-top: 40px;
 
       }
+      .reg-button{
+        margin-top: 80px;
+      }
+    
 
 
 
@@ -137,7 +143,13 @@
                 display: inline-block;
                 justify-content: center;
                 text-align: center;
+                padding-top: 60px;
+                margin-top: 40px;
+                margin-left: 180px;
         
+              }
+              .reg-button{
+                margin-top: 80px;
               }
             
         

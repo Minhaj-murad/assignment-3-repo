@@ -8,3 +8,11 @@
     margin-top: 80px;
 
 }
+.cover-img-1, .cover-img-2, .cover-img-3{
+    width: 100%;
+  filter: brightness(30%);
+
+}
+.cover-img-3{
+    height: 100vh;
+}

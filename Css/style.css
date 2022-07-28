@@ -21,15 +21,22 @@
         width: 872px;
         margin-left: 350px;
         }
+        .companiestop{
+          margin-top: 40px;
+        }
 .companies{
     width: 75%;
-    margin-left: 140px;
+    margin-left: 180px;
 
 }
 .circle-icon {
     background: #3d3c46;
     padding:6px;
     border-radius: 50%;
+}
+.Endsection{
+  background-color: #3d3c46;
+  height: 300px;
 }
 
 
